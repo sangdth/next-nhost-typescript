@@ -1,0 +1,22 @@
+{
+  "dependencyDashboard": true,
+  "extends": [
+    "config:base"
+  ],
+  "packageRules": [
+    {
+      "matchUpdateTypes": ["minor", "patch", "pin", "digest"],
+      "automerge": true
+    },
+    {
+      "matchDepTypes": ["devDependencies"],
+      "automerge": true
+    },
+    {
+      "matchPackageNames": [
+        "next"
+      ],
+      "enabled": false
+    }
+  ]
+}
