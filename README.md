@@ -1,2 +1,1 @@
-# akupara
-THDP upgraded
+# next-nhost-typescript template

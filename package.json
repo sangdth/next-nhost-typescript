@@ -1,7 +1,7 @@
 {
-  "name": "akupara",
+  "name": "next-nhost-typescript",
   "version": "0.1.0",
-  "private": true,
+  "license": "MIT",
   "scripts": {
     "build": "next build",
     "server:prod": "next start",
