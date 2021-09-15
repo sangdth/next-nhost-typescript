@@ -52,7 +52,7 @@ yarn dev
 - GraphQL endpoint is: `http://localhost:8080/v1/graphql`
 
 ### 6. Enjoy!
-I have included `login` and `signup` pages, you can start using it. The `user` interface looks [like this](https://github.com/sangdth/testasdfasdf/blob/a8439e9ccd51ea50079f943eb08c5e18c3b7c226/lib/types.ts#L83) if you have not change anything in PostgresQL so far.
+I have included `login` and `signup` pages, you can start using it. The `user` interface looks [like this](https://github.com/sangdth/next-nhost-typescript/blob/f0d4c61e99cb4d58ff494ca18fffb3bc7cab09e1/lib/types.ts#L83) if you have not change anything in PostgresQL so far.
 - Login page: `http://localhost:3000/login`
 - Signup page: `http://localhost:3000/signup`
 
