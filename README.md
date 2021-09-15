@@ -52,6 +52,10 @@ yarn dev
 - GraphQL endpoint is: `http://localhost:8080/v1/graphql`
 
 ### 6. Enjoy!
+I have included `login` and `signup` pages, you can start using it. The `user` interface looks [like this](https://github.com/sangdth/testasdfasdf/blob/a8439e9ccd51ea50079f943eb08c5e18c3b7c226/lib/types.ts#L83) if you have not change anything in PostgresQL so far.
+- Login page: `http://localhost:3000/login`
+- Signup page: `http://localhost:3000/signup`
 
 # TODO
-I don't know how to make a script like `yarn create next-app` flow to allow people customise something here. But well, feel free to suggest. I really appreciate.
+- [ ] Make an admin dashboard for demo.
+- [ ] I don't know how to make a script like `yarn create next-app` flow to allow people customise something here. But well, feel free to suggest. I really appreciate.
