@@ -35,7 +35,7 @@ nhost login
 Read more at [login docs](https://docs.nhost.io/cli/login).
 
 ### 4. Link your project to local
-At your root folder, run:
+At your root project folder, run:
 ```
 nhost link
 ```
