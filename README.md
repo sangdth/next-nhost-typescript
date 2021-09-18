@@ -56,6 +56,21 @@ I have included `login` and `signup` pages, you can start using it. The `user` i
 - Login page: `http://localhost:3000/login`
 - Signup page: `http://localhost:3000/signup`
 
+# For Development
+### Adding new component
+We have `plop` to help making new component with predefined content.
+```
+yarn new:component
+
+// Prompt will ask for component name
+? Component name TestComponent
+✔  ++ /components/TestComponent/index.ts
+✔  ++ /components/TestComponent/TestComponent.tsx
+✔  ++ /components/TestComponent/TestComponent.spec.tsx
+✔  +- /components/index.ts
+✨  Done in 3.02s.
+```
+
 # TODO
 - [ ] Make an admin dashboard for demo.
 - [ ] I don't know how to make a script like `yarn create next-app` flow to allow people customise something here. But well, feel free to suggest. I really appreciate.
