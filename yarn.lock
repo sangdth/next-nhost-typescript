@@ -6406,7 +6406,7 @@ platform@1.3.6:
   resolved "https://registry.yarnpkg.com/platform/-/platform-1.3.6.tgz#48b4ce983164b209c2d45a107adb31f473a6e7a7"
   integrity sha512-fnWVljUchTro6RiCFvCXBbNhJc2NijN7oIQxbwsyL0buWJPG85v81ehlHI9fXrJsMNgTofEoWIQeClKpgxFLrg==
 
-plop@^2.7.4:
+plop@2.7.4:
   version "2.7.4"
   resolved "https://registry.yarnpkg.com/plop/-/plop-2.7.4.tgz#835280aef3541102063b758f5116cce899e1c72b"
   integrity sha512-SaqN3mwug/Ur2RE/ryo05oLTLy+8qZGwosNt9JnrFWca+dLCsPJR1j2ZXwjrccmNu6LA7eB56lRyk/G0fKf9HA==
@@ -7783,7 +7783,7 @@ ts-invariant@^0.9.0:
   dependencies:
     tslib "^2.1.0"
 
-ts-node@^10.2.1:
+ts-node@10.2.1:
   version "10.2.1"
   resolved "https://registry.yarnpkg.com/ts-node/-/ts-node-10.2.1.tgz#4cc93bea0a7aba2179497e65bb08ddfc198b3ab5"
   integrity sha512-hCnyOyuGmD5wHleOQX6NIjJtYVIO8bPP8F2acWkB4W06wdlkgyvJtubO/I9NkI88hCFECbsEgoLc0VNkYmcSfw==
