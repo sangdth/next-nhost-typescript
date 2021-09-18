@@ -9,6 +9,7 @@
     "dev": "concurrently \"nhost dev\" \"yarn server:dev\" \"open http://localhost:3000\"",
     "start": "yarn server:prod",
     "lint": "next lint",
+    "new:component": "plop component",
     "test": "jest",
     "test:all": "yarn lint && yarn ts-check && yarn test:ci",
     "test:ci": "yarn test --ci --maxWorkers=50% --silent",
