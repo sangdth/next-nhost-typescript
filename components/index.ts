@@ -14,3 +14,4 @@ export * from './Input';
 export * from './Layout';
 export * from './Logo';
 export * from './PrivateRoute';
+// AUTO APPEND NEW COMPONENT HERE
