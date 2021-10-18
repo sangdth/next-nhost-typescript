@@ -7,9 +7,12 @@ import { NhostApolloProvider } from '@nhost/react-apollo';
 import { ChakraProvider } from '@chakra-ui/react';
 import { auth } from '@/lib/nhost';
 import { GRAPHQL_ENDPOINT } from '@/lib/constants';
+import { useLoadingProgress } from '@/lib/hooks';
 import type { AppProps } from 'next/app';
 
 function MyApp({ Component, pageProps }: AppProps) {
+  useLoadingProgress();
+
   return (
     <JotaiProvider>
       <NhostAuthProvider auth={auth}>

@@ -1,5 +1,6 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { useRouter } from 'next/router';
+import { useAuth } from '@nhost/react-auth';
 import Link from 'next/link';
 import {
   Alert,
@@ -16,6 +17,7 @@ import { APP_NAME } from '@/lib/constants';
 
 export default function SignUp() {
   const router = useRouter();
+  const { signedIn } = useAuth();
   const [loading, setLoading] = useState(false);
   const [displayName, setDisplayName] = useState('');
   const [email, setEmail] = useState('');
@@ -45,6 +47,15 @@ export default function SignUp() {
       setLoading(false);
     }
   }
+
+  useEffect(() => {
+    async function goToHome() {
+      return router.push('/');
+    }
+    if (signedIn && !loading && !error) {
+      goToHome();
+    }
+  }, [router, signedIn, loading, error]);
 
   return (
     <Flex

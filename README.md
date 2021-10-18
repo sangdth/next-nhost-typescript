@@ -72,6 +72,6 @@ yarn new:component
 ```
 
 # TODO
-- [ ] Add Error Boundary and fall back view.
-- [ ] Make an admin dashboard for demo.
+- [x] Add Error Boundary and fall back view.
+- [x] Make an ~~admin~~ users dashboard for demo.
 - [ ] I don't know how to make a script like `yarn create next-app` flow to allow people customise something here. But well, feel free to suggest. I really appreciate.

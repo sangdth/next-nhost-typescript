@@ -41,6 +41,7 @@ export type UpdatedData<T, K extends Entity> = Record<
 >;
 
 export type UserData = SingleData<UserType, Entity.Users>;
+export type UsersAggregateData = AggregateData<UserType, Entity.Users>;
 // export type SitesAggregateData = AggregateData<SiteType, Entity.Sites>;
 // export type SiteData = SingleData<SiteType, Entity.Sites>;
 // export type SiteInsertedData = InsertedData<SiteType, Entity.Sites>;

@@ -1,0 +1,1 @@
+export { WithPrivateRoute } from './WithPrivateRoute';

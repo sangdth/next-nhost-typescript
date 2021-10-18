@@ -99,3 +99,12 @@
         insertion_order: null
         column_mapping:
           id: user_id
+  select_permissions:
+  - role: me
+    permission:
+      columns:
+      - avatar_url
+      - display_name
+      - id
+      filter: {}
+      allow_aggregations: true
