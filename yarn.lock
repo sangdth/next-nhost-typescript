@@ -1389,10 +1389,10 @@
   dependencies:
     subscriptions-transport-ws "^0.9.19"
 
-"@nhost/react-auth@1.0.5":
-  version "1.0.5"
-  resolved "https://registry.yarnpkg.com/@nhost/react-auth/-/react-auth-1.0.5.tgz#dc442f3d9919d5142ea0ce587cd8234b9372cf45"
-  integrity sha512-FjaPfl8OzB9ElVuxXHjlHZhtvmRcavZVZHacmWHgjRpUi0Zd01KeDy5Lfzvy99ByZgbOzKUV0H+8uPLrR0py4g==
+"@nhost/react-auth@2.0.3":
+  version "2.0.3"
+  resolved "https://registry.yarnpkg.com/@nhost/react-auth/-/react-auth-2.0.3.tgz#df51f98c552e6c4595c7fe1b5d16df36eca83200"
+  integrity sha512-IFT99lkITH/hXtR7D1FGNM+XLFrg57Z14jh/MfE+/+fRKPw1gdISwvd/a8ts7I1csoGjMLEd0O7ZyEgLRYiT2Q==
 
 "@node-rs/helper@1.2.1":
   version "1.2.1"

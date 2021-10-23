@@ -24,7 +24,7 @@
     "@emotion/react": "11.5.0",
     "@emotion/styled": "11.3.0",
     "@nhost/react-apollo": "2.0.5",
-    "@nhost/react-auth": "1.0.5",
+    "@nhost/react-auth": "2.0.3",
     "deepmerge": "4.2.2",
     "framer-motion": "4.1.17",
     "graphql": "15.6.1",
