@@ -32,7 +32,7 @@
     "jotai": "1.4.0",
     "lodash": "4.17.21",
     "next": "11.1.2",
-    "nextjs-cors": "2.0.0",
+    "nextjs-cors": "2.1.0",
     "nhost-js-sdk": "3.1.0",
     "nprogress": "0.2.0",
     "react": "17.0.2",
