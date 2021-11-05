@@ -6028,10 +6028,10 @@ next@11.1.2:
     "@next/swc-linux-x64-gnu" "11.1.2"
     "@next/swc-win32-x64-msvc" "11.1.2"
 
-nextjs-cors@2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/nextjs-cors/-/nextjs-cors-2.0.0.tgz#ac9d1800200079f1f1dc301f18b4a30bd943d069"
-  integrity sha512-CiGgn52pmRB6jCcvu9CNtTxdiWwYeQDNT/k3RMpcUW0B8whEBdZWTYRL1ltl+Wpc4chUFGawPaMBJb8XFnVUiQ==
+nextjs-cors@2.1.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/nextjs-cors/-/nextjs-cors-2.1.0.tgz#99ba64a6b39cf980661153799d8337da25524933"
+  integrity sha512-FC1LJMebe6E9fQ3hapW/4Q6zpz1Xpq8O8A2mYWma3S5EY8BP/t+IiTFsHm8Js5lRNyJ3DzQG/3VQu9pTA2LS/Q==
   dependencies:
     cors "^2.8.5"
 
